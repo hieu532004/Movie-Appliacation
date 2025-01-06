@@ -55,11 +55,11 @@ const App: React.FC = () => {
       )}
       <Routes>
         <Route path="/Movie-Appliacation" element={<Home />} />
-        <Route path="/Movie-Appliacation/trending" element={<Trending />} />
-        <Route path="/Movie-Appliacation/movie/:id" element={<MovieDetail />} />
-        <Route path="/Movie-Appliacation/explore" element={<Explore />} />
-        <Route path="/Movie-Appliacation/movies" element={<Movies />} />
-        <Route path="/Movie-Appliacation/favorite" element={<Favorite />} />
+        <Route path="/trending" element={<Trending />} />
+        <Route path="/movie/:id" element={<MovieDetail />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route path="/movies" element={<Movies />} />
+        <Route path="/favorite" element={<Favorite />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
       <Navbar />
