@@ -54,7 +54,7 @@ const App: React.FC = () => {
         </div>
       )}
       <Routes>
-        <Route path="/Movie-Appliacation" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/trending" element={<Trending />} />
         <Route path="/movie/:id" element={<MovieDetail />} />
         <Route path="/explore" element={<Explore />} />
